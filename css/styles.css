@@ -1,0 +1,87 @@
+* {
+    font-family: 'Ubuntu', monospace;
+}
+
+.main-header {
+    background-image: url(../images/underwater.jpg);
+    background-color: #3a3cff;
+    text-align: center;
+    background-size: auto;
+    font-size: 0;
+    border-bottom: 2px solid #163761;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 64px;
+    text-shadow: 1px 1px 2px red,
+                 2px 2px 4px black;
+    margin-top: -5px;           
+}
+
+.nav-wrapper li {
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 10px 40px;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #163761;
+    box-shadow: 2px -2px 2px black,
+                -2px -2px 2px black;
+             
+}    
+
+.nav-wrapper a {
+    color: #163761;
+    text-decoration: none;
+}
+
+.nav-wrapper a:hover {
+    color: rebeccapurple;
+}
+
+body {
+    text-align: center;
+    line-height: 1.7;
+    background-color: rgb(245, 238, 238);
+}
+
+footer {
+    background: gray;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 30px;
+    color: #416c72;
+}
+
+.main-content {
+    margin-right: 12%;
+    margin-left: 12%;
+}
+
+.nav-wrapper li:hover {
+    transform: scale(1.1);
+}
+
+.body-img {
+    display: block;
+    height: 300px;
+    width: 100%;
+    box-shadow: 2px 2px 2px gray,
+                -2px -2px 2px gray;
+    margin: 15px;            
+}
+
+#left-column {
+    float: left;
+}
+
+#right-column{
+}
